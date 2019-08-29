@@ -15,3 +15,4 @@ git reset --hard <physically deletes the commit and it cannot be reverted back -
 git reset --mix <default one where it reset the commit and pull the upward commit date in unstaged "red" area of working directory>
 git tag -a v1.0 4bca93 -m "version 1.0" <to give a tag to each commit to differentiate the versions of the developers code
 git show <explains the changes done - fire git show v1.0 and it throws the difference with the preceeding commit point>
+git clone < get the entire dump from remote when you start to develop as new user. If you one need the changes then its git pull>

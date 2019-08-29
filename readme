@@ -1,4 +1,6 @@
 Git learning guide with examples (refer commit notes)
+git config --global user.name xxxx
+git config --global user.email ****@gmail.com
 git remote add origin git@github.com:simpl-kart/applog-app.git <to add the remote repository link ssh/https>
 git add . (to add the unstaged file)
 git commit -m "command to commit the unstaged files in local" <commit the unstaged file "red" to staged file"green" in local>

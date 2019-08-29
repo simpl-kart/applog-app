@@ -8,3 +8,7 @@ git log --oneline <to get all the commit details in oneline>
 git stash <to keep aside the unstaged files "red ones" when you want to merge the changes from remote without losing the local>
 git stash list <list the stash ed files in local>
 git stash apply <get the changed components back to unstaged area for commit after the auto merge of remote changes>
+git reset --soft <delete the commit and put the changes in the staged area "green">
+git reset --hard <physically deletes the commit and it cannot be reverted back - permanent delete of the commit>
+git reset --mix <default one where it reset the commit and pull the upward commit date in unstaged "red" area of working directory>
+

@@ -1,7 +1,10 @@
-first update
-second update
-third update
-fourth update
-fifth update
-sixth update
-seventh update
+Git learning guide with examples (refer commit notes)
+git remote add origin git@github.com:simpl-kart/applog-app.git <to add the remote repository link ssh/https>
+git add . (to add the unstaged file)
+git commit -m "command to commit the unstaged files in local" <commit the unstaged file "red" to staged file"green" in local>
+git pull origin master <to pull the remote changes to local>
+git push origin master <to push the local changes to remote repository>
+git log --oneline <to get all the commit details in oneline>
+git stash <to keep aside the unstaged files "red ones" when you want to merge the changes from remote without losing the local>
+git stash list <list the stash ed files in local>
+git stash apply <get the changed components back to unstaged area for commit after the auto merge of remote changes>

@@ -21,3 +21,4 @@ git branch (branch name) <explains how branches are created and copying of maste
 git checkout (branch name) <explains how to switch between master and other branches. In my example its feature/defect branch>
 git merge branch name < merges any branch to master or any other branches>
 git rebase master <before pushing any changes to master first the branch should be up to date with the master changes>
+git merge feature --squash <squash will help push all modules of feature branch to master as one commit id whereas merge has commit ids for all modules in feature branch>

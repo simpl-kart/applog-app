@@ -22,3 +22,4 @@ git checkout (branch name) <explains how to switch between master and other bran
 git merge branch name < merges any branch to master or any other branches>
 git rebase master <before pushing any changes to master first the branch should be up to date with the master changes>
 git merge feature --squash <squash will help push all modules of feature branch to master as one commit id whereas merge has commit ids for all modules in feature branch>
+git cherry-pick (commit id) <This will only pick the particular commit id in feature branch to master and will not merge everything> 
